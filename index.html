@@ -80,12 +80,39 @@ Telephone:
 
 </fieldset>
 
+<fieldset>
+<legend>Additional Information</legend>
+
+<!-- Drop-down list -->
+<label for="positionType">Type of Position:</label>
+<select name="positionType" id="positionType">
+    <option value="fulltime">Full Time</option>
+    <option value="partime">Part Time</option>
+    <option value="contract">Contract</option>
+    <option value="internship">Internship</option>
+</select>
+
+<br><br>
+
+<!-- Radio button -->
+<label>Willingness to Relocate</label><br>
+
+<input type="radio" name="relocate" value="yes"> Yes<br>
+<input type="radio" name="relocate" value="no"> No<br>
+
+<br>
+
+<!-- Buttons -->
+<input type="radio" value="Submit">
+<input type="reset" value="Reset">
+
+</fieldset>
+
 <br>
 
 <input type="submit" value="Submit">
 
 </form>
-
 </section>
 
 <footer>
