@@ -51,18 +51,40 @@
 <section id="contact">
     <h2>Contact Form</h2>
 
-    <form>
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username" required><br><br>
+<form>
+<fieldset>
+<legend>Contact Info</legend>
+Username:
+<input type="text" name="username"><br>
 
-        <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+Email:
+<input type="text" name="email"><br>
 
-        <label for="phone">Telephone Number:</label><br>
-        <input type="tel" id="phone" name="phone" required><br><br>
+Telephone:
+<input type="text" name="telephone"><br><br>
 
-        <button type="submit">Submit</button>
-    </form>
+</fieldset>
+
+<fieldset>
+<legend>Job Positions</legend>
+
+<input type="checkbox" name="position" value="Account Executive"> Account Executive<br>
+
+<input type="checkbox" name="position" value="Business Development"> Business Development<br>
+
+<input type="checkbox" name="position" value="Inside Sales"> Inside Sales<br>
+
+<input type="checkbox" name="position" value="Sales Manager"> Sales Manager<br>
+
+<input type="checkbox" name="position" value="VP Sales"> VP Sales<br>
+
+</fieldset>
+
+<br>
+
+<input type="submit" value="Submit">
+
+</form>
 
 </section>
 
