@@ -5,20 +5,20 @@ body{
 }
 
 header{
-    background-color: White;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 20px;
 }
 
 nav{
-    background-color: White;
+    background-color: black;
     text-align: center;
     padding: 10px;
 }
 
 nav a{
-    color: white;
+    color: black;
     margin: 10px;
     text-decoration: none;
     font-weight: bold;
